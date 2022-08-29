@@ -1,6 +1,7 @@
 "use strict";
 
-{
+// Задача №1
+/* {
   let userProduct = prompt(`Введите наименование товара?`);
   let userCategory = prompt(`Введите категорию товара?`);
   let userPrice = Number(prompt(`Введите стоимость товара?`));
@@ -18,7 +19,7 @@
   } else {
     console.log("Вы ввели некорректные данные");
   }
-}
+} */
 
 /* {
   const productName = "Наименование товара: Пальто";
