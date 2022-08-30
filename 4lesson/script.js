@@ -1,12 +1,12 @@
 "use strict";
 
 // Задача №1
-/* {
-  let userProduct = prompt(`Введите наименование товара?`);
-  let userCategory = prompt(`Введите категорию товара?`);
-  let userPrice = Number(prompt(`Введите стоимость товара?`));
-  let userAmount = Number(prompt(`Введите количество товара?`));
-  if ((userAmount, userPrice)) {
+{
+  let userProduct = prompt("Введите наименование товара?");
+  let userCategory = prompt("Введите категорию товара?");
+  let userPrice = Number(prompt("Введите стоимость товара?"));
+  let userAmount = Number(prompt("Введите количество товара?"));
+  if (userAmount >= 0 && userPrice >= 0) {
     console.log(
       "На складе " +
         userAmount +
@@ -19,9 +19,9 @@
   } else {
     console.log("Вы ввели некорректные данные");
   }
-} */
+}
 
-/* {
+{
   const productName = "Наименование товара: Пальто";
   const productAmount = 20;
   const productCategory = "Мужская верхняя одежда";
@@ -36,4 +36,3 @@
   const productPrice = 4590;
   console.log(productName);
 }
- */
