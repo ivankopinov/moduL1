@@ -10,6 +10,9 @@ const allStudents = [
   "Соколов",
 ];
 const failedStudents = ["Смирнов", "Сидоров", "Попов"];
-let sucStudents = allStudents.filter((x) => !failedStudents.includes(x));
 
+const sucStudents = allStudents.reduce((acc, item) => {
+  if (!failedStudents.includes(item)) acc.push(item);
+  return acc;
+}, []);
 console.log(sucStudents);
