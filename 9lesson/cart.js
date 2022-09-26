@@ -25,6 +25,7 @@ const cart = {
     };
     this.items.push(newObj);
     this.increaseCount(quantity);
+    this.calculateItemPrice(price, quantity);
   },
   calculateItemPrice(price, quantity) {
     return this.totalPrice += quantity * price;
