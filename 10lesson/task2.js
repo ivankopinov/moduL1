@@ -24445,4 +24445,4 @@ const listIPv4 = new Set([
   "10.78.125.206",
   "10.0.32.20",
 ]);
-console.log(listIPv4.size);
+console.log("Количество уникальных IP: ", listIPv4.size);
