@@ -1,4 +1,4 @@
-
+'use strict'
 let input,
   number,
   random = Math.floor(Math.random() * 100);
