@@ -11,8 +11,10 @@ const foo = () => {
   const total = newArr.reduce(function (total, current) {
     return (total += current);
   }, 0);
-  if (total < 50) 
-  foo(newArr);
+  if (total > 50) return console.log(newArr);
+  return foo(newArr);
 };
 foo(newArr);
-console.log(newArr);
+
+
+
