@@ -4,19 +4,21 @@ const rectangle = {
   height: 5,
   get rePerim() {
     return (
-      "Перимент треугольника равен " + 2 * (this.width + this.height) + " см"
+      "Периметр треугольника равен " + 2 * (this.width + this.height) + " см"
     );
   },
   set reWidth(val) {
-    this.width = val;
-    if (val === !Number.isFinite) {
-      return console.log("Введите число");
+    if (typeof val === 'number') {
+      this.width = val;
+    } else {
+      this.width;
     }
   },
   set reHeight(val) {
-    this.height = val;
-    if (val === !Number.isFinite) {
-      return console.log("Введите число");
+    if (typeof val === 'number') {
+      this.height = val;
+    } else {
+      this.height;
     }
   },
   get reSquare() {
@@ -24,4 +26,3 @@ const rectangle = {
   },
 };
 console.log(rectangle);
-
